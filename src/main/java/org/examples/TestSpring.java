@@ -10,7 +10,7 @@ public class TestSpring {
         //получение контектса по аннотациям
         //ApplicationContext contextAnnotation = new AnnotationConfigApplicationContext("education.spring");
 
-        //Получение контекста по XML
+        //Получение контекста по XML f
         ApplicationContext context2 = new ClassPathXmlApplicationContext("appContext.xml");
 
         Player pl = (Player) context2.getBean("player");
